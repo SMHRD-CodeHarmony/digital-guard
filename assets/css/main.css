@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@import url('./tailwind.css');
+
+
+.yo {
+    /* 테스트용 */
+    @apply border-red-400 bg-blue-400 p-4;
+}
